@@ -1,0 +1,93 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #1a1a2e, #282a36);
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .logo-text {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    
+  }
+  
+  .navbar-links li {
+    position: relative;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    
+    transition: color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    color: #7d5fff;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #282a36;
+    list-style: none;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .dropdown-menu li {
+    margin: 5px 0;
+  }
+  
+  .dropdown-menu a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .get-in-touch {
+    padding: 8px 16px;
+    background-color: #7d5fff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .get-in-touch:hover {
+    background-color: #5a3dc1;
+  }
+  
